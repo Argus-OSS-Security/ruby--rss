@@ -1,7 +1,8 @@
 name: Test
-on:
-  - push
-  - pull_request
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   - push
+#   - pull_request
 jobs:
   ruby-versions:
     uses: ruby/actions/.github/workflows/ruby_versions.yml@master
